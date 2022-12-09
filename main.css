@@ -1,32 +1,109 @@
 body{
+    background-color: #000;
     padding: 0;
     margin: 0;
-    background-color: #000;
+    /* font-weight: 800; */
+    /* font-family: 'poppins'; */
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 20px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.textLogo{
+    text-align: center;
+    padding: 3px;
+    font-size: 23px;
+    color: #EB4A4C;
+    font-weight: 800;
 }
 .circleLogo{
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
     border-radius: 50%;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
 }
-
-.text{
-    text-align: center;
-    padding: 1px;
-    /* background-color: rebeccapurple; */
-    /* opacity: 20%; */
+.drea{
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
 }
-.navLogo{
-
-    padding: 30px;
-    justify-content: space-between;
-}
-/* nav{
-    flex-direction: row;
-    display: flex;
-    /* padding: 30px; */
- */
 a{
-    padding: 30px;
-    margin-top: 60px;
+    text-decoration: none;
+    padding: 15px;
+    color:#fff;
+}
+a:hover{
+    color: #EB4A4C;
+    transition: 0.5s;
+}
+.myName{
+    font-size: 25px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 30px; */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.gilbert{
+    color: #fff;
+}
+
+.muhire{
+    margin-left: 20px;
+    color: #EB4A4C;
+}
+.subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 18px;
+}
+.creative{
+    color: #A2A2A2;
+}
+.freelancerss{
+    color: #fff;
+    margin-left: 5px;
+
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #EB4A4C;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2px;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+.getin{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconsSetting{
+    background-color: #7a0202;
 }
