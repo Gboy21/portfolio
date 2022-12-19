@@ -1,10 +1,26 @@
+:root{
+    --background-color: #000;
+    --font-family: 'Poppins', sans-serif;
+    --theme-color: #EB4A4C;
+    --light-color: #fff;
+    --button-font-size: 15px;
+    --myname-font-size: 35px;
+    --text-logo-size: 23px;
+    --creative-color: #A2A2A2;
+}
+.burger{
+    /* background-color: var(--light-color); */
+    color: var(--light-color);
+    width: 100px;
+}
 body{
-    background-color: #000;
+    background-color: var(--background-color);
     padding: 0;
     margin: 0;
     /* font-weight: 800; */
     /* font-family: 'poppins'; */
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
+
 }
 .container{
     padding: 20px;
@@ -22,28 +38,28 @@ body{
 .textLogo{
     text-align: center;
     padding: 3px;
-    font-size: 23px;
-    color: #EB4A4C;
+    font-size: var(--text-logo-size);
+    color: var(--theme-color);
     font-weight: 800;
 }
 .circleLogo{
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--light-color);
     width: 40px;
     height: 40px;
 }
 .drea{
-    color: #fff;
+    color: var(--light-color);
     padding: 10px;
     font-weight: 600;
 }
 a{
     text-decoration: none;
     padding: 15px;
-    color:#fff;
+    color: var(--light-color);
 }
 a:hover{
-    color: #EB4A4C;
+    color: var(--theme-color);
     transition: 0.5s;
 }
 .myName{
@@ -59,12 +75,12 @@ a:hover{
     flex-direction: column;
 }
 .gilbert{
-    color: #fff;
+    color: var(--light-color);
 }
 
 .muhire{
     margin-left: 20px;
-    color: #EB4A4C;
+    color: var(--theme-color);
 }
 .subtitle{
     display: flex;
@@ -74,27 +90,27 @@ a:hover{
     font-size: 18px;
 }
 .creative{
-    color: #A2A2A2;
+    color: var(--creative-color);
 }
 .freelancerss{
-    color: #fff;
+    color: var(--light-color);
     margin-left: 5px;
 
 }
-button{
+.intouch {
     width: 150px;
     height: 40px;
     border: none;
-    background-color: #EB4A4C;
-    color: #fff;
+    background-color: var(--theme-color);
+    color: var(--light-color);
     border-radius: 50px;
     font-size: 15px;
     font-weight: 400;
     padding: 2px;
 }
 button:hover{
-    background-color: #fff;
-    color: #000;
+    background-color: var(--light-color);
+    color: var(--background-color);
     transition: 0.5s;
 }
 .getin{
@@ -107,3 +123,127 @@ button:hover{
 .iconsSetting{
     background-color: #7a0202;
 }
+
+                        /* ABout Css */
+ /* ---------------------------------------------------------------------------------------------------------- */
+
+.mainAbout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.pic img{
+    width: 300px;
+    /* height: 30px; */
+    border-radius: 10px;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    /* align-items: c; */
+    justify-content: center;
+}
+.gilbert_about{
+    color: var(--light-color);
+    font-size: var(--myname-font-size);
+    font-weight: 600;
+}
+.muhire_about{
+    color: var(--theme-color);
+    font-size: var(--myname-font-size);
+    font-weight: 600;
+    margin-left: 10px;
+}
+.subnav{
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.navsub{
+    display: flex;
+    flex-direction: row;
+}
+.cra{
+    color: var(--creative-color);
+
+}
+.deve{
+    color: var(--light-color);
+    margin-left: 5px;
+}
+.line{
+    margin-top: 10px;
+    height: 2px;
+    background-color: var(--light-color);
+    width: 500px;
+}
+.texts{
+    color: var(--light-color);
+    margin-top: 20px;
+    font-size: 158x;
+    line-height: 1.5;
+}
+.learnmore{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: var(--theme-color);
+    color: var(--light-color);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 2px;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+                                                                    /* PORTFOLIO CSS */
+/*________________________________________________________________________________________________________________________ */
+.mainP{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.titlebar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+.crea{
+    color: var(--light-color);
+    font-size: var(--text-logo-size);
+    font-weight: 600;
+}
+.port{
+    color: var(--theme-color);
+    font-size: var(--text-logo-size);
+    font-weight: 600;
+    margin-left: 10px;
+}
+.lineP{
+    margin-top: 10px;
+    height: 3px;
+    width: 1000px;
+    background-color: var(--light-color);
+}
+.amafoto{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+  }
